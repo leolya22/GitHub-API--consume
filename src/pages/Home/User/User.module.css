@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 3vh;
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 10px 20px;
+    height: 95vh;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button {
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border: 3px solid rgb(0, 0, 0);
+    margin-top: 100px;
+}
+
+.button:hover {
+    color: red;
+    border: 3px solid rgba(222, 46, 46, 0.66);
+}

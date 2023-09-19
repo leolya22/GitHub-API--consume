@@ -1,0 +1,28 @@
+.notFound {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 55px;
+    border: 3px red solid;
+    border-radius: 15px;
+    margin: 40vh auto 0vh;
+    width: 400px;
+    background-color: white;
+    color: rgb(189, 0, 0);
+    text-align: center;
+}
+
+.button {
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.button:hover {
+    color: red;
+    border: 3px solid white;
+}
